@@ -8,37 +8,34 @@ import { Link } from "react-router-dom";
 
 function Header() {
   return (
-    <div className="flex justify-between p-8">
-      <h1 className="text-lg">Lucy Ofem</h1>
+    <div className="flex justify-between p-6">
+      <h1 className="text-2xl">Lucy</h1>
       <nav>
         <ul className="flex text-sm">
-          <li className="pr-8">
+          <li className="mr-10">
             <Link to="/">Home</Link>
           </li>
-          <li className="pr-8">
+          <li className="mr-10">
             <Link to="/">About</Link>
           </li>
-          <li className="pr-8">
+          <li className="mr-10">
             <Link to="/">Resume</Link>
           </li>
-          <li className="pr-8">
-            <Link to="/">Portfolio</Link>
-          </li>
-          <li className="pr-8">
-            <Link to="/">Contact</Link>
+          <li className="mr-10">
+            <a href="mailto:ofemlucy@gmail.com">Contact</a>
           </li>
         </ul>
       </nav>
       <div>
         <ul className="flex">
           <li className="pr-3">
-            <FontAwesomeIcon className="text-lg" icon={faTwitterSquare} />
+            <FontAwesomeIcon className="text-xl" icon={faTwitterSquare} />
           </li>
           <li className="pr-3">
-            <FontAwesomeIcon className="text-lg" icon={faLinkedin} />
+            <FontAwesomeIcon className="text-xl" icon={faLinkedin} />
           </li>
           <li className="pr-3">
-            <FontAwesomeIcon className="text-lg" icon={faGithubSquare} />
+            <FontAwesomeIcon className="text-xl" icon={faGithubSquare} />
           </li>
         </ul>
       </div>
