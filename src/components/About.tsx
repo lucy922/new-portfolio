@@ -1,7 +1,7 @@
 import image from "../assets/images/img.jpeg";
 import { Link } from "react-router-dom";
 
-function Main() {
+function About() {
   return (
     <main className="z-10 absolute w-full">
       <div className="p-5 flex flex-col w-full justify-center items-center bg-zinc-800">
@@ -41,4 +41,4 @@ function Main() {
   );
 }
 
-export default Main;
+export default About;
