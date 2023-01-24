@@ -1,9 +1,6 @@
-import Header from "./Header";
-
-function Home() {
+function Section() {
   return (
-    <div className="z-10 absolute">
-      <Header />
+    <section className="z-10 absolute">
       <div className="mt-44 flex flex-col justify-center items-center m-auto">
         <div className="text-center leading-10">
           <h1 className="text-3xl mb-4 font-medium">Hello,</h1>
@@ -17,8 +14,8 @@ function Home() {
           About me
         </button>
       </div>
-    </div>
+    </section>
   );
 }
 
-export default Home;
+export default Section;

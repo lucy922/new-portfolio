@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function Main() {
   return (
     <main className="z-10 absolute w-full">
-      <div className="pb-20 flex flex-col w-full justify-center items-center bg-zinc-800">
+      <div className="p-5 flex flex-col w-full justify-center items-center bg-zinc-800">
         <div className="grid grid-cols-2 items-center mt-28">
           <img src={image} alt="image" className="w-40 h-40 rounded-full" />
           <ul>
