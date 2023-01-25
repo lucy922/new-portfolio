@@ -87,7 +87,9 @@ function Header() {
               </li>
               <div className="border-b-2 border-b-zinc-900 mt-2"></div>
               <li className="hover:text-amber-400">
-                <a href="/">Resume</a>
+                <a href="https://drive.google.com/file/d/1tV-GIszXdDH0XvHHj1LWy6nO67x1J0tW/view?usp=sharing">
+                  Resume
+                </a>
               </li>
               <div className="border-b-2 border-b-zinc-900 mt-2"></div>
               <li className="hover:text-amber-400">

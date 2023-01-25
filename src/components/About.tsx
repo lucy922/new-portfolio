@@ -5,6 +5,7 @@ function About() {
   return (
     <section className="w-full" id="1">
       <div className="p-5 flex flex-col w-full justify-center items-center bg-zinc-900">
+        <h1>About me</h1>
         <div className="grid grid-cols-2 items-center mt-28">
           <img
             src={image}
@@ -34,12 +35,12 @@ function About() {
           which can be found on my github account.
         </p>
 
-        <Link
-          to="/"
+        <a
+          href="https://drive.google.com/file/d/1tV-GIszXdDH0XvHHj1LWy6nO67x1J0tW/view?usp=sharing"
           className=" bg-amber-400 text-base text-center text-white font-bold rounded-full w-52 p-4 mt-12"
         >
           Download CV
-        </Link>
+        </a>
       </div>
     </section>
   );
