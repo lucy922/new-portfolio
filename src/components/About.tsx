@@ -1,22 +1,26 @@
-import image from "../assets/images/img.jpeg";
+import image from "../assets/images/img.jpg";
 import { Link } from "react-router-dom";
 
 function About() {
   return (
-    <main className="z-10 absolute w-full">
-      <div className="p-5 flex flex-col w-full justify-center items-center bg-zinc-800">
+    <section className="w-full" id="1">
+      <div className="p-5 flex flex-col w-full justify-center items-center bg-zinc-900">
         <div className="grid grid-cols-2 items-center mt-28">
-          <img src={image} alt="image" className="w-40 h-40 rounded-full" />
+          <img
+            src={image}
+            alt="image"
+            className="md:w-44 md:h-44 w-32 h-32 rounded-full"
+          />
           <ul>
-            <li className="mb-3">
+            <li className="mb-3 text-sm md:text-base">
               <span className="font-bold mr-2">Name:</span> Lucy Ofem
               <div className="border-b-2 border-b-amber-400 mt-2"></div>
             </li>
-            <li className="mb-3">
+            <li className="mb-3 text-sm md:text-base">
               <span className="font-bold mr-2">Email:</span> ofemlucy@gmail.com
               <div className="border-b-2 border-b-amber-400 mt-2"></div>
             </li>
-            <li className="mb-3">
+            <li className="mb-3 text-sm md:text-base">
               <span className="font-bold mr-2">From:</span> Calabar, Nigeria.
               <div className="border-b-2 border-b-amber-400 mt-2"></div>
             </li>
@@ -37,7 +41,7 @@ function About() {
           Download CV
         </Link>
       </div>
-    </main>
+    </section>
   );
 }
 
