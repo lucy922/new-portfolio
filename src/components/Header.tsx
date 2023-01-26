@@ -38,25 +38,37 @@ function Header() {
 
         <ul className="hidden md:inline-flex space-x-5">
           <li>
-            <FontAwesomeIcon className="text-xl" icon={faTwitterSquare} />
+            <a href="https://twitter.com/_dada_dev">
+              <FontAwesomeIcon className="text-xl" icon={faTwitterSquare} />
+            </a>
           </li>
           <li>
-            <FontAwesomeIcon className="text-xl" icon={faLinkedin} />
+            <a href="https://www.linkedin.com/in/lucy-ofem-740a9a196/">
+              <FontAwesomeIcon className="text-xl" icon={faLinkedin} />
+            </a>
           </li>
           <li>
-            <FontAwesomeIcon className="text-xl" icon={faGithubSquare} />
+            <a href="https://github.com/lucy922">
+              <FontAwesomeIcon className="text-xl" icon={faGithubSquare} />
+            </a>
           </li>
         </ul>
 
         <ul className="md:hidden space-x-5 justify-center inline-flex">
           <li>
-            <FontAwesomeIcon className="text-xl" icon={faTwitterSquare} />
+            <a href="https://twitter.com/_dada_dev">
+              <FontAwesomeIcon className="text-xl" icon={faTwitterSquare} />
+            </a>
           </li>
           <li>
-            <FontAwesomeIcon className="text-xl" icon={faLinkedin} />
+            <a href="https://www.linkedin.com/in/lucy-ofem-740a9a196/">
+              <FontAwesomeIcon className="text-xl" icon={faLinkedin} />
+            </a>
           </li>
           <li>
-            <FontAwesomeIcon className="text-xl" icon={faGithubSquare} />
+            <a href="https://github.com/lucy922">
+              <FontAwesomeIcon className="text-xl" icon={faGithubSquare} />
+            </a>
           </li>
         </ul>
 
