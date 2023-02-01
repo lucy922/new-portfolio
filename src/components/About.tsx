@@ -2,10 +2,10 @@ import image from "../assets/images/img.jpg";
 
 function About() {
   return (
-    <section className="w-full" id="1">
-      <div className="p-5 flex flex-col w-full justify-center items-center bg-zinc-900">
+    <section className="w-full h-full bg-zinc-900 pb-8" id="1">
+      <div className="p-5 flex flex-col w-full justify-center items-center">
         <div className="relative mt-14">
-          <h1 className="md:text-8xl text-6xl text-zinc-800">About me</h1>
+          <h1 className="md:text-8xl text-6xl text-zinc-800">ABOUT ME</h1>
           <h2 className="md:text-4xl text-2xl absolute text-center md:top-8 top-4 right-0 left-0 flex justify-center">
             Know Me More
           </h2>
@@ -36,7 +36,11 @@ function About() {
           I'm a highly focused and motivated web developer who loves building
           accessible and responsive websites. I've gathered knowlegde as a
           developer for over 3 years and also worked on a few personal projects
-          which can be found on my github account.
+          which can be found on my{" "}
+          <a href="https://github.com/lucy922" className=" text-blue-500">
+            github
+          </a>{" "}
+          account.
         </p>
 
         <a

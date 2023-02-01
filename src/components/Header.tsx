@@ -15,8 +15,8 @@ function Header() {
   };
 
   return (
-    <header className="sticky top-0 z-30 md:m-0 w-full h-20 shadow-xl">
-      <div className="flex justify-between items-center p-6 bg-black">
+    <header className="sticky top-0 z-30 md:m-0 w-full h-20 shadow-xl bg-black">
+      <div className="flex justify-between items-center p-6 ">
         <h1 className="text-2xl">Lucy</h1>
 
         <ul className=" hidden space-x-10 md:inline-flex text-sm">
@@ -27,9 +27,7 @@ function Header() {
             <a href="#1">About</a>
           </li>
           <li>
-            <a href="https://drive.google.com/file/d/1tV-GIszXdDH0XvHHj1LWy6nO67x1J0tW/view?usp=sharing">
-              Resume
-            </a>
+            <a href="#2">Resume</a>
           </li>
           <li>
             <a href="mailto:ofemlucy@gmail.com">Contact</a>
@@ -99,9 +97,7 @@ function Header() {
               </li>
               <div className="border-b-2 border-b-zinc-900 mt-2"></div>
               <li className="hover:text-amber-400">
-                <a href="https://drive.google.com/file/d/1tV-GIszXdDH0XvHHj1LWy6nO67x1J0tW/view?usp=sharing">
-                  Resume
-                </a>
+                <a href="#2">Resume</a>
               </li>
               <div className="border-b-2 border-b-zinc-900 mt-2"></div>
               <li className="hover:text-amber-400">
