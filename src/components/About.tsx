@@ -45,7 +45,7 @@ function About() {
 
         <a
           href="https://drive.google.com/file/d/1tV-GIszXdDH0XvHHj1LWy6nO67x1J0tW/view?usp=sharing"
-          className=" bg-amber-400 text-base text-center text-white font-bold rounded-full w-52 p-4 mt-12"
+          className="bg-amber-400 text-center text-lg text-white rounded-full w-60 py-3 px-4 my-12"
         >
           Download CV
         </a>

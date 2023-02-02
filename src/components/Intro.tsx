@@ -13,7 +13,7 @@ function Intro() {
           </div>
           <a
             href="#1"
-            className="border-2 border-amber-400 text-center text-lg text-amber-400 hover:bg-amber-400 hover:text-white rounded-full w-60 py-2 px-4 my-12"
+            className="border-2 border-amber-400 text-center text-lg text-amber-400 hover:bg-amber-400 hover:text-white rounded-full w-60 py-3 px-4 my-12"
           >
             About me
           </a>

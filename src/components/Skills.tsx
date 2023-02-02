@@ -11,16 +11,24 @@ function Skills() {
           </h2>
         </div>
 
-        <div className="grid md:grid-cols-2 grid-rows-2 md:space-x-10 items-center text-center mt-28">
+        <div className="grid md:grid-cols-2 md:space-x-10 items-center text-center mt-28">
           <div className="bg-zinc-900 p-3 py-10 mb-5 rounded">
-            <h1 className="mb-3">Languages</h1>
-            <p>Javascript, Html, Css.</p>
+            <h1>LANGUAGES</h1>
+            <div className="border-b-2 border-b-amber-400 m-auto w-8"></div>
+            <p className="mt-3">Javascript, Html, Css.</p>
           </div>
           <div className="bg-zinc-900 p-3 py-10 mb-5 rounded">
-            <h1 className="mb-3">Frameworks</h1>
-            <p className="px-2">ReactJs, NextJs, Tailwind, Bootstrap.</p>
+            <h1>FRAMEWORKS</h1>
+            <div className="border-b-2 border-b-amber-400 m-auto w-8"></div>
+            <p className="mt-3">ReactJs, NextJs, Tailwind, Bootstrap.</p>
           </div>
         </div>
+        <a
+          href="https://drive.google.com/file/d/1tV-GIszXdDH0XvHHj1LWy6nO67x1J0tW/view?usp=sharing"
+          className="bg-amber-400 text-center text-lg text-white rounded-full w-60 py-3 px-4 my-12"
+        >
+          Download CV
+        </a>
       </div>
     </section>
   );
