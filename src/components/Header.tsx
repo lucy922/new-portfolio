@@ -3,7 +3,6 @@ import {
   faTwitterSquare,
   faGithubSquare,
 } from "@fortawesome/free-brands-svg-icons";
-import { faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useState } from "react";
 import { Link } from "react-router-dom";
@@ -24,10 +23,10 @@ function Header() {
             <Link to="/">Home</Link>
           </li>
           <li>
-            <a href="#1">About</a>
+            <a href="#about">About</a>
           </li>
           <li>
-            <a href="#2">Resume</a>
+            <a href="#skills">Resume</a>
           </li>
           <li>
             <a href="mailto:ofemlucy@gmail.com">Contact</a>
@@ -70,37 +69,62 @@ function Header() {
           </li>
         </ul>
 
-        <div className="block md:hidden">
+        <div className="md:hidden flex top-0 right-0 relative text-white cursor-pointer">
           <button onClick={handleClick}>
-            {openMenu ? (
-              <FontAwesomeIcon
-                className="text-xl absolute right-5 top-7"
-                icon={faTimes}
-              />
-            ) : (
-              <FontAwesomeIcon
-                className="text-xl  absolute right-5 top-7"
-                icon={faBars}
-              />
-            )}
-
+            <div className=" w-5 transform -translate-x-1/2 -translate-y-1/2 left-1/2 top-1/2">
+              <span
+                className={`absolute h-0.5 w-5 bg-white transform transition duration-300 ease-in-out ${
+                  openMenu ? "rotate-45 delay-200" : "-translate-y-1.5"
+                }`}
+              ></span>
+              <span
+                className={`absolute h-0.5 bg-white transform transition-all duration-200 ease-in-out ${
+                  openMenu ? "w-0 opacity-50" : "w-5 delay-200 opacity-100"
+                }`}
+              ></span>
+              <span
+                className={`absolute h-0.5 w-5 bg-white transform transition duration-300 ease-in-out ${
+                  openMenu ? "-rotate-45 delay-200" : "translate-y-1.5"
+                }`}
+              ></span>
+            </div>
             <span className="sr-only">Open Menu</span>
           </button>
           {openMenu === true ? (
-            <ul className="mt-7 text-sm py-4 w-60 text-center bg-black absolute right-0 space-y-3">
-              <li className="hover:text-amber-400">
-                <Link to="/">Home</Link>
+            <ul className="mt-7 text-sm py-4 w-60 text-center pt-10 bg-black absolute right-0 space-y-3">
+              <li
+                className="hover:text-amber-400"
+                onClick={() => {
+                  setOpenMenu(false);
+                }}
+              >
+                <a href="#intro">Home</a>
                 <div className="border-b-2 border-b-zinc-900 mt-2"></div>
               </li>
-              <li className="hover:text-amber-400">
-                <a href="#1">About</a>
+              <li
+                className="hover:text-amber-400"
+                onClick={() => {
+                  setOpenMenu(false);
+                }}
+              >
+                <a href="#about">About</a>
+              </li>
+              <div className="border-b-2 border-b-zinc-900 mt-5"></div>
+              <li
+                className="hover:text-amber-400"
+                onClick={() => {
+                  setOpenMenu(false);
+                }}
+              >
+                <a href="#skills">Resume</a>
               </li>
               <div className="border-b-2 border-b-zinc-900 mt-2"></div>
-              <li className="hover:text-amber-400">
-                <a href="#2">Resume</a>
-              </li>
-              <div className="border-b-2 border-b-zinc-900 mt-2"></div>
-              <li className="hover:text-amber-400">
+              <li
+                className="hover:text-amber-400"
+                onClick={() => {
+                  setOpenMenu(false);
+                }}
+              >
                 <a href="mailto:ofemlucy@gmail.com">Contact</a>
               </li>
             </ul>

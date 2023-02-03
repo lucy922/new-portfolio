@@ -1,6 +1,6 @@
 function Skills() {
   return (
-    <section className="w-full h-full bg-zinc-800" id="2">
+    <section className="w-full h-full bg-zinc-800" id="skills">
       <div className="p-5 flex flex-col w-full justify-center items-center">
         <div className="relative mt-14">
           <h1 className="md:text-8xl text-6xl opacity-70 text-zinc-700">

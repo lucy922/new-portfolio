@@ -2,7 +2,7 @@ import image from "../assets/images/img.jpg";
 
 function About() {
   return (
-    <section className="w-full h-full bg-zinc-900 pb-8" id="1">
+    <section className="w-full h-full bg-zinc-900 pb-8" id="about">
       <div className="p-5 flex flex-col w-full justify-center items-center">
         <div className="relative mt-14">
           <h1 className="md:text-8xl text-6xl text-zinc-800">ABOUT ME</h1>
@@ -13,7 +13,7 @@ function About() {
         <div className="grid grid-cols-2 items-center mt-28">
           <img
             src={image}
-            alt="image"
+            alt="thumbnail"
             className="md:w-44 md:h-44 w-32 h-32 rounded-full"
           />
           <ul>
@@ -37,7 +37,7 @@ function About() {
           accessible and responsive websites. I've gathered knowlegde as a
           developer for over 3 years and also worked on a few personal projects
           which can be found on my{" "}
-          <a href="https://github.com/lucy922" className=" text-blue-500">
+          <a href="https://github.com/lucy922" className="text-blue-500">
             github
           </a>{" "}
           account.

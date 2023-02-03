@@ -1,6 +1,9 @@
 function Intro() {
   return (
-    <section className="h-[850px] bg-[url('/public/assets/images/bg.jpg')] bg-cover bg-no-repeat">
+    <section
+      id="intro"
+      className="h-[850px] bg-[url('/public/assets/images/bg.jpg')] bg-cover bg-no-repeat"
+    >
       <div className="w-full h-full backdrop-brightness-50"></div>
       <div className="z-10 absolute inset-0">
         <div className="md:mt-44 mt-96 flex flex-col justify-center items-center m-auto">
